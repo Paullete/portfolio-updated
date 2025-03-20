@@ -2,12 +2,12 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #1e1e2f, #3a3a60);
+    background: linear-gradient(to right, #1e1e2f, #3a3a55);
     color: #fff;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.8);
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -22,23 +22,28 @@ nav ul {
     gap: 20px;
 }
 
+nav ul li {
+    display: inline;
+}
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: 600;
+    padding: 8px 12px;
     transition: 0.3s;
 }
 
 nav ul li a:hover {
-    color: #ff9800;
+    color: #ff8c00;
 }
 
 #hero {
     text-align: center;
     padding: 100px 20px;
-    background: url('https://source.unsplash.com/1600x900/?technology,creative') no-repeat center center/cover;
+    background: url('https://source.unsplash.com/1600x900/?technology,futuristic') no-repeat center center/cover;
     color: white;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,19 +53,19 @@ nav ul li a:hover {
     display: inline-block;
     padding: 12px 20px;
     margin: 10px;
-    background: #ff9800;
+    background: #ff5722;
     color: white;
     text-decoration: none;
     font-weight: 600;
     border-radius: 30px;
     transition: 0.3s;
-    box-shadow: 0 4px 15px rgba(255, 152, 0, 0.5);
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.5);
 }
 
 .btn:hover {
-    background: #ff6700;
+    background: #ff3d00;
     transform: translateY(-3px);
-    box-shadow: 0 6px 20px rgba(255, 103, 0, 0.7);
+    box-shadow: 0 6px 20px rgba(255, 61, 0, 0.7);
 }
 
 .work-gallery {
@@ -68,22 +73,29 @@ nav ul li a:hover {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     padding: 20px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .work-item {
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
-    text-align: center;
     box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s;
     backdrop-filter: blur(10px);
 }
 
 .work-item img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
-    margin-bottom: 10px;
+}
+
+.work-item h3 {
+    margin: 10px 0;
+    color: #ff8c00;
 }
 
 .work-item:hover {
@@ -91,17 +103,22 @@ nav ul li a:hover {
     box-shadow: 0 6px 15px rgba(255, 255, 255, 0.3);
 }
 
-#contact {
+footer {
     text-align: center;
-    background: linear-gradient(to right, #ff9800, #ff6700);
+    background: linear-gradient(to right, #ff8c00, #ff3d00);
     color: white;
     padding: 40px 20px;
+    margin-top: 50px;
 }
 
-#contact a {
+footer a {
     color: white;
     text-decoration: none;
     font-weight: 600;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
