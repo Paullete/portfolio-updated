@@ -6,14 +6,13 @@
     <title>Paulette Adhiambo - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <h1>Paulette Adhiambo</h1>
+            <div class="logo">Paulette Adhiambo</div>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#experience">Experience</a></li>
@@ -25,51 +24,64 @@
     </header>
     
     <section id="hero">
-        <h2>Hi, I'm Paulette Adhiambo</h2>
-        <p>Communications & Environmental Professional | Digital Storyteller | UX Developer</p>
-        <a href="#contact" class="btn">Contact Me</a>
-        <a href="cv.pdf" download class="btn-secondary">Download CV</a>
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Paulette Adhiambo" class="profile-pic">
+            <h1>Hi, I'm Paulette Adhiambo</h1>
+            <p>Communications & Environmental Professional | Digital Storyteller | UX Developer</p>
+            <div class="buttons">
+                <a href="#contact" class="btn">Contact Me</a>
+                <a href="cv.pdf" download class="btn-secondary">Download CV</a>
+            </div>
+        </div>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a communications and environmental professional with expertise in strategic communication, project administration, and digital storytelling. Currently, I work as a Communications and Graphics Design Assistant at UNDP under the Capacity for Disaster Reduction Initiative (CADRI). Passionate about environmental sustainability, disaster risk reduction, and digital advocacy, I thrive in roles that merge creativity with impact.</p>
+        <p>I am a dynamic and results-driven communications and environmental professional with a passion for **storytelling, digital advocacy, and sustainable impact**. With expertise in **strategic communication, UX design, and project coordination**, I bring a unique blend of **creativity and analytical thinking** to every project. Currently, I work as a **Communications and Graphics Design Assistant at UNDP**, where I develop compelling content, design engaging materials, and drive strategic outreach for the **Capacity for Disaster Reduction Initiative (CADRI)**. My previous experience at **UNEP**, along with my active involvement in **Rotary International**, has equipped me with a deep understanding of **stakeholder engagement, branding, and digital communication strategies**. With a strong foundation in **software development, web design, and data visualization**, I thrive at the intersection of **technology, storytelling, and impact-driven communication**.</p>
     </section>
 
     <section id="experience">
         <h2>Experience</h2>
-        <div class="experience-container">
-            <div class="experience-card">
-                <h3>UNDP - Communications & Graphics Design Assistant</h3>
-                <p>Developed engaging content, designed advocacy materials, and managed strategic outreach for CADRI.</p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>UNDP</h3>
+                <p>Communications & Graphics Design Assistant</p>
             </div>
-            <div class="experience-card">
-                <h3>UNEP - Communications & Design Assistant</h3>
-                <p>Supported global environmental campaigns, content development, and digital storytelling initiatives.</p>
+            <div class="grid-item">
+                <h3>UNEP</h3>
+                <p>Communications & Design Assistant</p>
             </div>
         </div>
     </section>
 
     <section id="skills">
         <h2>Skills</h2>
-        <div class="skills-container">
-            <div class="skill-card"><i class="fab fa-html5"></i> HTML & CSS</div>
-            <div class="skill-card"><i class="fab fa-js"></i> JavaScript</div>
-            <div class="skill-card"><i class="fab fa-python"></i> Python</div>
-            <div class="skill-card"><i class="fab fa-adobe"></i> Adobe Creative Suite</div>
-            <div class="skill-card"><i class="fas fa-project-diagram"></i> Project Management</div>
+        <div class="grid-container">
+            <div class="grid-item"><i class="fab fa-html5"></i> HTML & CSS</div>
+            <div class="grid-item"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="grid-item"><i class="fab fa-python"></i> Python</div>
+            <div class="grid-item"><i class="fab fa-adobe"></i> Adobe Creative Suite</div>
+            <div class="grid-item"><i class="fas fa-project-diagram"></i> Project Management</div>
         </div>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <p>Check out my GitHub for some of my work: <a href="https://github.com/Paullete" target="_blank" class="btn">View My Work</a></p>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>GitHub Portfolio</h3>
+                <a href="https://github.com/Paullete" target="_blank" class="btn">View My Work</a>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:Paulettenereah3@gmail.com">Paulettenereah3@gmail.com</a></p>
-        <p>Phone: +254703230260</p>
-    </section>
+    <footer>
+        <p>&copy; 2025 Paulette Adhiambo | <a href="mailto:Paulettenereah3@gmail.com">Email Me</a></p>
+        <div class="socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
 </body>
 </html>
