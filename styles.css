@@ -2,13 +2,13 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #f5ebe0, #e1cfc4);
+    background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
     color: #4a4a4a;
 }
 
 header {
-    background: rgba(102, 81, 67, 0.9);
-    color: white;
+    background: rgba(255, 240, 245, 0.9);
+    color: #4a4a4a;
     padding: 1rem 0;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -27,7 +27,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #4a4a4a;
     text-decoration: none;
     font-weight: 600;
     padding: 8px 12px;
@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6f3c;
+    color: #ff85a2;
 }
 
 .back-button {
@@ -47,7 +47,7 @@ nav ul li a:hover {
 .back-button a {
     display: inline-block;
     padding: 10px 15px;
-    background: #d88c66;
+    background: #ffb6c1;
     color: white;
     text-decoration: none;
     font-weight: 600;
@@ -56,18 +56,37 @@ nav ul li a:hover {
 }
 
 .back-button a:hover {
-    background: #c47c59;
+    background: #ff85a2;
 }
 
 #hero {
     text-align: center;
     padding: 100px 20px;
-    background: url('https://source.unsplash.com/1600x900/?cozy,workspace,vintage') no-repeat center center/cover;
-    color: white;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    background: url('https://source.unsplash.com/1600x900/?soft,pastel,workspace') no-repeat center center/cover;
+    color: #4a4a4a;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.7);
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    background: #ffb6c1;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 182, 193, 0.5);
+}
+
+.btn:hover {
+    background: #ff85a2;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 133, 162, 0.7);
 }
 
 .work-gallery {
@@ -77,13 +96,13 @@ nav ul li a:hover {
     padding: 20px;
     max-width: 1200px;
     margin: auto;
-    background: rgba(255, 247, 240, 0.9);
+    background: rgba(255, 245, 248, 0.9);
     border-radius: 15px;
     padding: 30px;
 }
 
 .work-item {
-    background: #f4e4d7;
+    background: #fce4ec;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -98,15 +117,15 @@ nav ul li a:hover {
 
 footer {
     text-align: center;
-    background: rgba(102, 81, 67, 0.9);
-    color: white;
+    background: rgba(255, 240, 245, 0.9);
+    color: #4a4a4a;
     padding: 40px 20px;
     margin-top: 50px;
     box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
 }
 
 footer a {
-    color: #ff6f3c;
+    color: #ff85a2;
     text-decoration: none;
     font-weight: 600;
 }
